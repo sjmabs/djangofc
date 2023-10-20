@@ -1,0 +1,7 @@
+<h1>Team Info</h1>
+<ul>
+    {% for player in players %}
+        <li>{{ player.name }} | {{ player.position }} | Nickname : {{ player.nickname }}</li>
+        <hr>
+    {% endfor %}
+</ul>
